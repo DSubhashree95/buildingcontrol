@@ -1,0 +1,26 @@
+<div class="navbar" style="background-color: rgb(81, 101, 51);">
+  <div class="navbar-brand">
+    <h4 style="margin-left: 509px;">{{title}}</h4>
+</div>
+</div>
+ 
+
+
+<div class="dataBody">
+  
+  <table class="myTable" >
+      <tr>
+          <th>Signal Id</th>
+          <th>Signal Name</th>
+          <th>Signal value</th>
+          <th>Time</th>
+      </tr>
+      <tr *ngFor="let mappedData of mappedDataArray">
+        <td>{{mappedData.signalId}}</td>
+        <td>{{mappedData.signalName}}</td>
+        <td>{{mappedData.value}}</td>
+        <td>{{mappedData.readUtc}}</td>
+      </tr>
+  </table>
+</div>
+

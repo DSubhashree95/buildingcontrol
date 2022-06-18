@@ -1,0 +1,133 @@
+{
+    "buildings": [
+            {
+                "id": 1,
+                "name": "Unseen university",
+                "long": "32.95",
+                "lat": "87.70",
+                "dataSetStartDate": null,
+                "squaredMeters": 18140
+            },
+            {
+                "id": 2,
+                "name": "221B Baker Street",
+                "long": "10.95",
+                "lat": "-0.12",
+                "dataSetStartDate": null,
+                "squaredMeters": 88
+            }
+        ],
+    "signals":  [
+            {
+                "id": 1,
+                "buildingId": 1,
+                "name": "LB11_PL_1_ST701_V1",
+                "classification": "Co2",
+                "min": 0,
+                "max": 99,
+                "key": "LB11_PL_1_ST701_V1",
+                "rw": "R",
+                "bms": "Webport"
+            },
+            {
+                "id": 2,
+                "buildingId": 1,
+                "name": "LB11_PL_2_ST701_V1",
+                "classification": "Co2",
+                "min": 0,
+                "max": 99,
+                "key": "LB11_PL_2_ST701_V1",
+                "rw": "R",
+                "bms": "Webport"
+            },
+            {
+                "id": 3,
+                "buildingId": 1,
+                "name": "LB11_PL_7_ST701_V1",
+                "classification": "Co2",
+                "min": 0,
+                "max": 99,
+                "key": "LB11_PL_7_ST701_V1",
+                "rw": "R",
+                "bms": "Webport"
+            },
+            {
+                "id": 4,
+                "buildingId": 1,
+                "name": "LB11_PL_7_ST702_V1",
+                "classification": "Co2",
+                "min": 0,
+                "max": 99,
+                "key": "LB11_PL_7_ST702_V1",
+                "rw": "R",
+                "bms": "Webport"
+            },
+            {
+                "id": 5,
+                "buildingId": 1,
+                "name": "202_5_temperature",
+                "classification": "GT",
+                "min": 0,
+                "max": 99,
+                "key": "70-B3-D5-D7-20-10-00-70|temperature",
+                "rw": "R",
+                "bms": "Talkpool"
+            },
+            {
+                "id": 6,
+                "buildingId": 1,
+                "name": "202_6_temperature",
+                "classification": "GT",
+                "min": 0,
+                "max": 99,
+                "key": "70-B3-D5-D7-20-10-00-4F|temperature",
+                "rw": "R",
+                "bms": "Talkpool"
+            },
+            {
+                "id": 7,
+                "buildingId": 1,
+                "name": "202_7_temperature",
+                "classification": "GT",
+                "min": 0,
+                "max": 99,
+                "key": "70-B3-D5-D7-20-10-00-5B|temperature",
+                "rw": "R",
+                "bms": "Webport"
+            },
+            {
+                "id": 8,
+                "buildingId": 1,
+                "name": "KB13_GT101_SP",
+                "classification": "GT",
+                "min": 0,
+                "max": 99,
+                "key": "KB13_GT101_SP",
+                "rw": "W",
+                "bms": "Webport"
+            },
+            {
+                "id": 9,
+                "buildingId": 1,
+                "name": "KB22_GT101_SP1",
+                "classification": "GT",
+                "min": 0,
+                "max": 99,
+                "key": "KB22_GT101_SP1",
+                "rw": "W",
+                "bms": "Webport"
+            },
+            {
+                "id": 10,
+                "buildingId": 1,
+                "name": "KB23_GP101_SP",
+                "classification": "GT",
+                "min": 0,
+                "max": 99,
+                "key": "KB23_GP101_SP",
+                "rw": "W",
+                "bms": "Webport"
+            }
+        ]
+
+}
